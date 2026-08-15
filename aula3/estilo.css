@@ -1,0 +1,81 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    background-color: #7fffd452;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #004659;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 5px auto;
+    padding: 10px;
+    border: 2px solid #004659;
+    background-color: #004659;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #c3cdd0;
+}
+
+a:hover {
+    color: white;
+}
+
+article {
+    width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #f8e8e852;
+}
+
+h2 {
+    font-size: 40px;
+    color: #004659;
+}
+
+aside {
+    width: 30%;
+    margin: 5px auto;
+    padding: 5px;
+    border: 1px solid #004659;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#letraSite {
+    font-size: 20px;
+}
+
+#linkSite {
+    color: #0c19dc;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    width: 30%;
+    margin: 20px auto;
+}
