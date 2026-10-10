@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #e3e1e1;
+  background: linear-gradient(to right, #e7b7ab, #871e10);
+
+}
+
+.container {
+    width: 500px;
+    max-width: 90%;
+    margin: 80px auto;
+    background: linear-gradient(to right, #871e10, #e7b7ab);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.entrada {
+    display: flex;
+    gap: 10px;
+}
+
+#inputTarefa {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#btnAdicionar {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#btnAdicionar:hover {
+    background-color: #000000;
+}
+
+ul {
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #000000;
+}
+
+li.concluida {
+    text-decoration: line-through;
+    color: #000000;
+}
