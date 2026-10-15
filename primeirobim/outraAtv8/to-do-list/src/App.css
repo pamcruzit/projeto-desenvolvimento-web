@@ -1,0 +1,107 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #e3e1e1;
+  background: linear-gradient(to right, #e7b7ab, #871e10);
+  min-height: 100vh;
+}
+
+.container {
+  width: 500px;
+  max-width: 90%;
+  margin: 80px auto;
+  background: linear-gradient(to right, #871e10, #e7b7ab);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.entrada {
+  display: flex;
+  gap: 10px;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.entrada input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.entrada button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.entrada button:hover {
+  background-color: #000000;
+}
+
+ul {
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+  padding: 12px;
+  margin-bottom: 8px;
+  background-color: #000000;
+  border-radius: 5px;
+  overflow-wrap: anywhere;
+}
+
+li span {
+  flex: 1;
+}
+
+.btnRemover {
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #871e10;
+  color: white;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.btnRemover:hover {
+  background-color: #b52c1a;
+}
+
+@media (max-width: 450px) {
+  .container {
+    padding: 20px;
+  }
+
+  .entrada {
+    flex-wrap: wrap;
+  }
+
+  .entrada input {
+    width: 100%;
+  }
+}
