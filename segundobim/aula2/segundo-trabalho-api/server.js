@@ -1,11 +1,12 @@
 const express = require("express");
+const cors = require("cors");
 
 const app = express();
 
 const PORTA = 3000;
 
 app.use(express.json());
-
+app.use(cors());
 const produtos = [
     { id: 1, nome: "notebook", preco: 120.00 },
     { id: 2, nome: "Mouse", preco: 65.90 },
