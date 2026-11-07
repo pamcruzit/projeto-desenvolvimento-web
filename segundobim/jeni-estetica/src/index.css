@@ -11,13 +11,41 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+    --bg-color: #FFF;
+    --text-color: #252B42;
+    --second-text-color: #66323A;
+    --light-text-color: #FFF;
+    --light-pink: #f2cdd5;
+    --primary-color: #662C39;
+    --secondary-color: #FFC5D3
+;
+
+    --ff-sans: "Montserrat", system-ui, sans-serif;
+    --fw-base: 400;
+    --fw-md: 500;
+    --fw-bold: 800;
+
+    --fs-sm: 0.875rem;
+    --fs-base: 1rem;
+    --fs-lg: 1.25rem;
+    --fs-xl: 1.75rem;
+    --fs-2xl: 2.25rem;
+
+    --py-sm: 0.875rem;
+    --py-base: 1rem;
+    --py-lg: 1.5rem;
+    --py-xl: 3rem;
+    --px-lg: 1.5rem;
+}
+
 :root{
-  --primary-color: #23A6F0;
-  --secondary-color: #B2E3FF;
+  --primary-color: #662C39;
+  --secondary-color: #FFC5D3;
   --bg-color: #FFFFFF;
   --text-color: #252B42;
-  --second-text-color:#737373;
-  --light-gray:#F8F8F8;
+  --second-text-color:#66323A;
+  --light-pink:#f2cdd5;
   --light-text-color:#FFFFFF;
 
   --ff-sans: "Montserrat", system-ui, sans-serif;
